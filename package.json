@@ -1,0 +1,11 @@
+{
+  "name": "sharelaneqa12j_yuliya_baranouskaya",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuliya Baranouskaya",
+  "license": "ISC",
+  "description": ""
+}
