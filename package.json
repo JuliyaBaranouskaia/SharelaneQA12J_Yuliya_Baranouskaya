@@ -3,9 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register tests/**/*.spec.ts"
   },
   "author": "Yuliya Baranouskaya",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.1",
+    "chai": "4.5.0",
+    "chromedriver": "^131.0.2",
+    "safaridriver": "^1.0.0",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "@types/chai": "4.3.20",
+    "@types/mocha": "^10.0.10",
+    "@types/selenium-webdriver": "^4.1.27",
+    "mocha": "^11.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
 }
